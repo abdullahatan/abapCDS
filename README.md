@@ -19,7 +19,18 @@ CDS kullanılarak görüntüleme, tablolalar, ek açıklamalar, kullanıcı tan�
 ![image](https://user-images.githubusercontent.com/26427511/145885910-c97989b2-799f-4f60-9d4f-26309c01a7c1.png)
 
 #### Ek Açıklamalar:
-##### 1)
+
+##### @AbapCatalog.sqlViewName: ‘sql_view_name’:
+
+##### @AbapCatalog.compiler.compareFilter: true:
+
+##### @AbapCatalog.preserveKey: true:
+
+##### @AccessControl.authorizationCheck: #NOT_REQUIRED:
+
+##### @EndUserText.label: ‘CDS View type #BASIC’:
+
+
 
 
 
