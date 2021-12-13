@@ -32,8 +32,10 @@ Bunu 'false' olarak ayarlarsak 'KEY' kelimesini alanın önüne eklemenize bakı
 SAP tarafında oluşturulan tüm DB tabloları üzende tanımlanmış KEY alanları vardır, CDS'ler ise her zaman SAP tarafındaki bu DB tablorı üzenden oluşturulur. DB tablolarında tanımlanmış birden fazla KEY alan olabilir ve bu KEY alanların oluşturduğumuz CSD View'lerin KEY alanları olmasını isteyebiliriz. 
 
 ##### @AccessControl.authorizationCheck: #NOT_REQUIRED:
+CDS View'lere 'Güvenlik' parçası eklemek için kullanılır. CDS View'lerin dışarıya açmak istediğimizde verileri yetki bazında kısıtlamak önemli olabilir.Bu bölüme yetki nesneleri oluşturularak bağlanabilir ve yetkilendirme sağlanabilir.
 
 ##### @EndUserText.label: ‘CDS View type #BASIC’:
+CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 
 
