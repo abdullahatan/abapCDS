@@ -1,4 +1,4 @@
-# CDS_VIEW
+# CORE DATA SERVICES
 
 SAP HANA' nın bize sunduğu avantajlardan biri de CDS'lerdir. CDS View'le SQL kullanılarak geliştirilen SAP’nin yeni programlama bir modelidir.
 Teknik olarak ise; anlamlı ve zengin veritabanı birimlerini ve kullanıcı tanımlı veri modellerini tanımlamak için yeni bir Veri Tanımlama Dili (Data Definition Language(DDL)) 
