@@ -20,11 +20,16 @@ CDS kullanılarak görüntüleme, tablolalar, ek açıklamalar, kullanıcı tan�
 
 #### Ek Açıklamalar:
 
-##### @AbapCatalog.sqlViewName: ‘sql_view_name’:
+##### @AbapCatalog.sqlViewName: ‘sql_view_name’: 
+SQL görünüm adıdır, SE11'de görülebilen DDIC SQL görünümüdür. SE11 görünüm adı sınırlamalarına göre maksimum 16 karakter uzunluğunda olabilir. 
 
 ##### @AbapCatalog.compiler.compareFilter: true:
+Verileri filtreleme davranışını tanımlar, yani önce filtre koşullarını karşılaştırır ve eğer eşleşirlerse veriler getirilir. CDS görünümünde join koşulları varsa, bunlar yalnızca filtre koşulları eşleştirildikten sonra yürütülür. DDIC ise bu olay önce veriler alınır ve sonra filtrelenirse görüntülenir. Dolayısıyla, bu ek açıklamayı true olarak ayarlarsak, bu alanların önüne 'KEY' kelimesini ekleyerek CDS görünümünüzde KEY alan olarak tanımlamış oluruz ve  yalnızca DDIC SQL görünümünde KEY alanları oluşturabiliriz.
+
+Bunu 'false' olarak ayarlarsak 'KEY' kelimesini alanın önüne eklemenize bakılmaksızın, DB tablosu KEY alanları CDS View'ler için de KEY alanlar olarak tanımlanacaktır.
 
 ##### @AbapCatalog.preserveKey: true:
+SAP tarafında oluşturulan tüm DB tabloları üzende tanımlanmış KEY alanları vardır, CDS'ler ise her zaman SAP tarafındaki bu DB tablorı üzenden oluşturulur. DB tablolarında tanımlanmış birden fazla KEY alan olabilir ve bu KEY alanların oluşturduğumuz CSD View'lerin KEY alanları olmasını isteyebiliriz. 
 
 ##### @AccessControl.authorizationCheck: #NOT_REQUIRED:
 
