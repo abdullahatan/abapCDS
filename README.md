@@ -37,6 +37,20 @@ CDS View'lere 'Güvenlik' parçası eklemek için kullanılır. CDS View'lerin d
 ##### @EndUserText.label: ‘CDS View type #BASIC’:
 CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
+![image](https://user-images.githubusercontent.com/26427511/145890487-0269d8b2-d5f9-4228-b5b8-cecbf6790ddf.png)
+
+![image](https://user-images.githubusercontent.com/26427511/145890633-f77b7381-f05d-4975-8891-c598cf423f09.png)
+
+![image](https://user-images.githubusercontent.com/26427511/145890791-2e6d7f8f-73b5-40e0-82e8-4b1f7ea481db.png)
+
+![image](https://user-images.githubusercontent.com/26427511/145891019-a1a6761e-6ab5-4533-83d8-d7b12e6ec09d.png)
+
+
+
+
+
+
+
 
 
 
