@@ -45,10 +45,12 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 ![image](https://user-images.githubusercontent.com/26427511/145890791-2e6d7f8f-73b5-40e0-82e8-4b1f7ea481db.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/145891019-a1a6761e-6ab5-4533-83d8-d7b12e6ec09d.png)
- 
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_1.abap)
  
 ### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
- 
+
+![image](https://user-images.githubusercontent.com/26427511/145997859-3ee4de29-c546-46bc-ae40-c6a80845de78.png)
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_2.abap)
  
  
 
