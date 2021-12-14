@@ -19,3 +19,6 @@ define view ZAATAN_CDS_02 as select from sflight
                 end 
             end as seat_name                       
 }
+
+    where fldate <= $session.system_date
+    
