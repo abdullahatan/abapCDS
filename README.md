@@ -58,7 +58,11 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_2.abap)
  
- 
+### CDS View Extension
+Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri olduğundan bir proje veya bir nesne için oluşturulan CDS View'ler başka bir proje veya nesne içinde kullanma ihtiyacı oluşacaktır. Örneğin A Tablosunun 5 alanını kullanarak bir CDS View oluşturduğumuzu ve başka bir proje için yine A Tablosunsun 8 alanına ihtiyaç duyduğumuzu varsayalım, bu durumda baştan CDS View oluşturmak yerine 'Extend View' seçeneği ile sahip olduğumuz CDS View'e ihtiyaç duyduğumuz alanları dahil edebiliriz.
 
+
+
+ 
 
 
