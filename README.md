@@ -50,13 +50,13 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
  
 
  
-<h2>
+<h4>
 
 ```diff
-+ green Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
++ Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 ```
 
-</h2>
+</h4>
 
 
 
