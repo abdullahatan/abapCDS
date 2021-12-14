@@ -46,15 +46,20 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 ![image](https://user-images.githubusercontent.com/26427511/145891019-a1a6761e-6ab5-4533-83d8-d7b12e6ec09d.png)
 
-###### ************************************************************************************************************** 
 ### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
-### ************************************************************************************************************* 
+ 
+
+ 
+<h2>
 
 ```diff
-+ this text is highlighted in green
-- this text is highlighted in red
+- red
++ green
+! orange
+# gray
 ```
 
+</h2>
 
 
 
