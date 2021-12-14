@@ -51,7 +51,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 </h3>
  
-<p><font face="tahoma" size="4" color="maroon">
+<p><font face="tahoma" size="4" color="red">
 <b>Burada bir yazı var.</b></font></p>
 
 
