@@ -1,6 +1,6 @@
 # CORE DATA SERVICES
 
-SAP HANA' nın bize sunduğu avantajlardan biri de CDS'lerdir. CDS View'le SQL kullanılarak geliştirilen SAP’nin yeni programlama bir modelidir.
+SAP HANA' nın bize sunduğu avantajlardan biri de CDS'lerdir. CDS View'le SQL kullanılarak geliştirilen SAP’nin yeni bir programlama modelidir.
 Teknik olarak ise; anlamlı ve zengin veritabanı birimlerini ve kullanıcı tanımlı veri modellerini tanımlamak için yeni bir Veri Tanımlama Dili (Data Definition Language(DDL)) 
 sunan SQL tabanlı geliştirmedir. SAP bu yeni modele ‘Code-Pushdown’ ve ‘Code-To-Data’ isimlerini veriyor. Böyle isimlendirmesinin sebebi ise, veriye ulaşma ve onu hazır etme işlemlerini uygulama sunucusu üzerinde yapmaktansa, veritabanı seviyesine indirgemesi ve yükü veritabanına vermesidir. 
 Eclipse ve Hana Studio ortamlarında geliştirme yapılabilir.
