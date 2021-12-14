@@ -105,6 +105,15 @@ CDS View'ler oluştururken aşağıdaki join türleri kullanılabilir.
 ![image](https://user-images.githubusercontent.com/26427511/146069213-0ee063f6-efa1-409e-9990-ed4ccbe026f0.png)
 
 
+#### ASSOCIATIONS:
+CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine ABAP programı, Fiori uygulamaları vb. araçlar üzerinden erişim sağlarlar. 5 farklı tablo JOIN ile bir CDS View oluşturduysak, JOIN koşulları CDS View her tetiklendiğinde yürütülecektir. İş kullanıcısı yalnızca 2 tablodaki alanlara bakıyor olsa bile CDS View önce 5 tablonun tümünün birleştirme koşullarını çalıştıracak ve kullanıcının kaç alana baktığını önemsemeyecektir. Bu yaklaşım Join SQL konseptidir ve bu konsept veri listeleme performansına neden olacaktır. Bu sorunun üstesinden gelmek için SAP, SQL veri alma yönteminde bir iyileştirmeye gitti ve 'ASSOCIATIONS' kavramınını geliştirdi. Association'lar ile veriler yalnızca kullanıcı onu görmek istediğinde alınır, kullanıcı görmek istemiyorsa veriye erişim olmaz. Örneğin, CDS View'lerde yapılandırılmış 4 İlişki var ve kullanıcı yalnızca 2 tablo için veri alıyor, diğer 2 tablodaki ASSOICATION tetiklenmeyecek ve sistem sonuçları hızlı bir şekilde döndürecek.
+
+
+
+
+
+
+
 
 
 
