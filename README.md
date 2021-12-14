@@ -50,6 +50,8 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 ### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 ### ************************************************************************************************************* 
 
+<span style="color:blue">some *blue* text</span>.
+
 
 
 
