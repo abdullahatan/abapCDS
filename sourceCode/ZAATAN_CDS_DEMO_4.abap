@@ -28,7 +28,6 @@ as select from sflight {
 *&---------------------------------------------------------------------*
 REPORT zaatan_cds_params.
 
-
 DATA: _waers TYPE waers VALUE 'USD'.
 
 SELECT * FROM zaatan_cds_04( im_curr = @_waers ) INTO TABLE @DATA(t_outdat).
