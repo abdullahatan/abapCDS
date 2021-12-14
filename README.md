@@ -49,14 +49,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 ###### ************************************************************************************************************** 
 ### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 ### ************************************************************************************************************* 
-
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
 
 
 
