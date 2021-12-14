@@ -52,6 +52,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 </h3>
  
 <p><font face="tahoma" size="4" color="maroon">
+<b>Burada bir yazı var.</b></font></p>
 
 
 
