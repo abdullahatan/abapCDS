@@ -52,6 +52,10 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 ![image](https://user-images.githubusercontent.com/26427511/145997859-3ee4de29-c546-46bc-ae40-c6a80845de78.png)
 
+![image](https://user-images.githubusercontent.com/26427511/145998985-b8adcd89-8142-46b8-8284-2b8a40a9a09e.png)
+
+![image](https://user-images.githubusercontent.com/26427511/145999156-e0fc1ce0-1a42-4983-a453-347b457a01fa.png)
+
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_2.abap)
  
  
