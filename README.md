@@ -50,7 +50,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
  
 ### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 
-![image](https://user-images.githubusercontent.com/26427511/145997859-3ee4de29-c546-46bc-ae40-c6a80845de78.png)
+![image](https://user-images.githubusercontent.com/26427511/145999657-c4e606ee-7476-4ff8-831a-8d84f941927b.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/145998985-b8adcd89-8142-46b8-8284-2b8a40a9a09e.png)
 
