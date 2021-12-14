@@ -50,16 +50,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
  
 
  
-<h2>
-
-```diff
-- red
-+ green
-! orange
-# gray
-```
-
-</h2>
+<h2>```diff + Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması ```</h2>
 
 
 
