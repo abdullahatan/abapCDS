@@ -9,12 +9,13 @@ Avantajları;
 Database tabanına direkt erişim sağladığı için kod ile sistem arasındaki geçimleri yavaşlatır. 
 CDS kullanılarak görüntüleme, tablolalar, ek açıklamalar, kullanıcı tanımlı veri türleri ve bağlamlar oluşturabiliriz. 
 
+### Örnek: Basit CDS View Oluşturma
 
- ![image](https://user-images.githubusercontent.com/26427511/145884694-5ddbb1de-65a1-4fee-9697-a64200c11373.png)
+![image](https://user-images.githubusercontent.com/26427511/145884694-5ddbb1de-65a1-4fee-9697-a64200c11373.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/145952321-3eefc626-4fbc-4a80-9d0b-1b375aebcd0f.png)
 
- ![image](https://user-images.githubusercontent.com/26427511/145885156-082d6450-cc31-4d3c-8125-968dedfb93d6.png)
+![image](https://user-images.githubusercontent.com/26427511/145885156-082d6450-cc31-4d3c-8125-968dedfb93d6.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/145885910-c97989b2-799f-4f60-9d4f-26309c01a7c1.png)
 
@@ -45,7 +46,9 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 ![image](https://user-images.githubusercontent.com/26427511/145891019-a1a6761e-6ab5-4533-83d8-d7b12e6ec09d.png)
 
-
+### ******************************************************************************************************************************************************
+### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
+### ******************************************************************************************************************************************************
 
 
 
