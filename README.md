@@ -88,6 +88,21 @@ CDS View' lerde veri fitrelemek için 'WHERE' yan tümcesini kullanabiliriz. Sta
 
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_4.abap)
 
+### CDS Views – Joins and Associations
+CDS View'ler bir SQL geliştirmesi olup, projelerde verileri anlamlı bir bilgiye dönüştürmek için birden fazla tabloyu birleştirmemiz gerekebilir.  
+
+#### JOINS:
+CDS View'ler oluştururken aşağıdaki join türleri kullanılabilir.
+ - Inner Join
+ - Left Outer join
+ - Right outer join
+
+
+![image](https://user-images.githubusercontent.com/26427511/146067874-c3875496-d24e-4589-9751-e2fc29ce9488.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146069096-09efcee8-2f22-4201-921d-b471e243f581.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146069213-0ee063f6-efa1-409e-9990-ed4ccbe026f0.png)
 
 
 
