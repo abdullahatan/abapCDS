@@ -69,6 +69,7 @@ Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri ol
 
 ![image](https://user-images.githubusercontent.com/26427511/146034504-257e2a27-d520-4e79-9c0f-98d0007e3322.png)
 
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_3.abap)
 
 ### CDS View With Parameters
 CDS View' lerde veri fitrelemek için 'WHERE' yan tümcesini kullanabiliriz. Statik koşulların yanı sıra kullanıcı etkileşimi gerektiren durumlarda ise 'Parameters' özelliği ile veri fitrelemesi yapmak mümkündür. 
@@ -85,7 +86,7 @@ CDS View' lerde veri fitrelemek için 'WHERE' yan tümcesini kullanabiliriz. Sta
 
 ![image](https://user-images.githubusercontent.com/26427511/146039431-6f264e02-ed53-4b99-98d6-61a21f4d89e2.png)
 
-
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_4.abap)
 
 
 
