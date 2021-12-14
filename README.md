@@ -67,7 +67,7 @@ Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri ol
 
 ![image](https://user-images.githubusercontent.com/26427511/146033921-1c0a826b-35c8-4b34-805c-5a698335fd57.png)
 
-![image](https://user-images.githubusercontent.com/26427511/146034123-200b9bb9-f0ec-4e5e-9cdc-1eb1953b618d.png)
+![image](https://user-images.githubusercontent.com/26427511/146034504-257e2a27-d520-4e79-9c0f-98d0007e3322.png)
 
 
 
