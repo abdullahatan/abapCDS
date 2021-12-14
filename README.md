@@ -59,7 +59,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_2.abap)
  
 ### CDS View Extension
-Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri olduğundan bir proje veya bir nesne için oluşturulan CDS View'ler başka bir proje veya nesne içinde kullanma ihtiyacı oluşacaktır. Örneğin A Tablosunun 5 alanını kullanarak bir CDS View oluşturduğumuzu ve başka bir proje için yine A Tablosunsun 8 alanına ihtiyaç duyduğumuzu varsayalım, bu durumda baştan CDS View oluşturmak yerine 'Extend View' seçeneği ile sahip olduğumuz CDS View'e ihtiyaç duyduğumuz alanları dahil edebiliriz. Extend View'lere sadece alan eklenebilir ve 'Where' söz dizimi kullanılamaz.
+Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri olduğundan bir proje veya bir nesne için oluşturulan CDS View'ler başka bir proje veya nesne içinde kullanma ihtiyacı oluşacaktır. Örneğin A Tablosunun 5 alanını kullanarak bir CDS View oluşturduğumuzu ve başka bir proje için yine A Tablosunsun 8 alanına ihtiyaç duyduğumuzu varsayalım, bu durumda baştan CDS View oluşturmak yerine 'Extend View' seçeneği ile sahip olduğumuz CDS View'e ihtiyaç duyduğumuz alanları dahil edebiliriz. Extend View'lere sadece alan eklenebilir ve 'WHERE' yan tümcesini kullanılamaz.
 
 ![image](https://user-images.githubusercontent.com/26427511/146031872-d4d08b17-472e-4c3c-91b3-9c8dc5b2285d.png)
 
@@ -68,6 +68,76 @@ Bir projede binlerce CDS View yaratabiliriz. CDS Viewler sanal veri modelleri ol
 ![image](https://user-images.githubusercontent.com/26427511/146033921-1c0a826b-35c8-4b34-805c-5a698335fd57.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146034504-257e2a27-d520-4e79-9c0f-98d0007e3322.png)
+
+
+### CDS View With Parameters
+CDS View' lerde veri fitrelemek için 'WHERE' yan tümcesini kullanabiliriz. Statik koşulların yanı sıra kullanıcı etkileşimi gerektiren durumlarda ise 'Parameters' özelliği ile veri fitrelemesi yapmak mümkündür. 
+
+![image](https://user-images.githubusercontent.com/26427511/146036782-af2d0c7a-b638-4fcb-8bde-8150049d27b3.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146037887-101755c5-a0d1-4577-956f-78f53c11645c.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146038082-0fc6052c-7877-4b9d-b0f9-52d3b8000cb2.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146038265-152b3909-a28c-4c9e-83f7-a915614cbb5b.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146039593-d1bbeafa-ab4f-4bc3-819e-a3953eae4ab2.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146039431-6f264e02-ed53-4b99-98d6-61a21f4d89e2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
