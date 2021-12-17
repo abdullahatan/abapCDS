@@ -108,6 +108,30 @@ CDS View'ler oluştururken aşağıdaki join türleri kullanılabilir.
 #### ASSOCIATIONS:
 CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine ABAP programı, Fiori uygulamaları vb. araçlar üzerinden erişim sağlarlar. 5 farklı tablo JOIN ile bir CDS View oluşturduysak, JOIN koşulları CDS View her tetiklendiğinde yürütülecektir. İş kullanıcısı yalnızca 2 tablodaki alanlara bakıyor olsa bile CDS View önce 5 tablonun tümünün birleştirme koşullarını çalıştıracak ve kullanıcının kaç alana baktığını önemsemeyecektir. Bu yaklaşım Join SQL konseptidir ve bu konsept veri listeleme performansına neden olacaktır. Bu sorunun üstesinden gelmek için SAP, SQL veri alma yönteminde bir iyileştirmeye gitti ve 'ASSOCIATIONS' kavramınını geliştirdi. Association'lar ile veriler yalnızca kullanıcı onu görmek istediğinde alınır, kullanıcı görmek istemiyorsa veriye erişim olmaz. Örneğin, CDS View'lerde yapılandırılmış 4 İlişki var ve kullanıcı yalnızca 2 tablo için veri alıyor, diğer 2 tablodaki ASSOCIATION tetiklenmeyecek ve sistem sonuçları hızlı bir şekilde döndürecek. İki çeşit Association türü vardı. Bunlar Ad-Hoc ve Exposed Association olarak adlandırılır. Ad-Hoc Assocation normal Join gibi ikinci tablonun herhangi bir alanını kullanmak üzerine geliştirilen Assocation'lardır. Exposed Association ise ilgili View için bir alan olarak görünmez ancak başka bir View aracılığıyla erişim sağlandığı zaman direk olarak orada kullanılabilir.
 
+##### A-)Ad-Hoc Association;
+
+![image](https://user-images.githubusercontent.com/26427511/146594446-d27df677-da07-46b2-b881-023c44b8cfb8.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146594494-9e98bc13-0bb6-4b45-8298-54f1e7a166e2.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146594539-6106940c-7276-4f2f-938b-2bb5d34826bd.png)
+
+##### B-)Exposed Association;
+
+![image](https://user-images.githubusercontent.com/26427511/146595348-59b36649-0cf0-47b0-bbae-54f80335ccf2.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146595405-59a58d10-2106-4ef3-922a-58ddfc79b8ac.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146595439-6ff83e53-204d-4d56-8e78-edba04510dcb.png)
+
+##### Note: 
+Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluşturulmaz, Join'lenen tablolara runtime zamanında erişim sağlanır.
+ 
+![image](https://user-images.githubusercontent.com/26427511/146596314-9bbdc5fc-3f64-4358-a7a9-f5b90c8c0fd9.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146596360-6b5c5909-4114-4050-90d4-c5c69514fe1d.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146596446-399e7584-c0e0-4b53-aa89-478596a9d8b7.png)
 
 
 
