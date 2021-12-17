@@ -104,6 +104,8 @@ CDS View'ler oluştururken aşağıdaki join türleri kullanılabilir.
 
 ![image](https://user-images.githubusercontent.com/26427511/146069213-0ee063f6-efa1-409e-9990-ed4ccbe026f0.png)
 
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_5.abap)
+
 
 #### ASSOCIATIONS:
 CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine ABAP programı, Fiori uygulamaları vb. araçlar üzerinden erişim sağlarlar. 5 farklı tablo JOIN ile bir CDS View oluşturduysak, JOIN koşulları CDS View her tetiklendiğinde yürütülecektir. İş kullanıcısı yalnızca 2 tablodaki alanlara bakıyor olsa bile CDS View önce 5 tablonun tümünün birleştirme koşullarını çalıştıracak ve kullanıcının kaç alana baktığını önemsemeyecektir. Bu yaklaşım Join SQL konseptidir ve bu konsept veri listeleme performansına neden olacaktır. Bu sorunun üstesinden gelmek için SAP, SQL veri alma yönteminde bir iyileştirmeye gitti ve 'ASSOCIATIONS' kavramınını geliştirdi. Association'lar ile veriler yalnızca kullanıcı onu görmek istediğinde alınır, kullanıcı görmek istemiyorsa veriye erişim olmaz. Örneğin, CDS View'lerde yapılandırılmış 4 İlişki var ve kullanıcı yalnızca 2 tablo için veri alıyor, diğer 2 tablodaki ASSOCIATION tetiklenmeyecek ve sistem sonuçları hızlı bir şekilde döndürecek. İki çeşit Association türü vardı. Bunlar Ad-Hoc ve Exposed Association olarak adlandırılır. Ad-Hoc Assocation normal Join gibi ikinci tablonun herhangi bir alanını kullanmak üzerine geliştirilen Assocation'lardır. Exposed Association ise ilgili View için bir alan olarak görünmez ancak başka bir View aracılığıyla erişim sağlandığı zaman direk olarak orada kullanılabilir.
@@ -132,11 +134,12 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 ![image](https://user-images.githubusercontent.com/26427511/146596446-399e7584-c0e0-4b53-aa89-478596a9d8b7.png)
 
 
-##### Program İçersinden Erişim;
+##### Examples:
 
 ![image](https://user-images.githubusercontent.com/26427511/146599268-110401b0-117f-4614-a93e-9ac4eab3548b.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146599394-8d4f2d1c-5afd-467c-aa4f-80c002262f27.png)
+
 
 ![image](https://user-images.githubusercontent.com/26427511/146599812-0de9b99c-e0c6-4a90-bb00-44cc4c4be7f2.png)
 
