@@ -125,13 +125,30 @@ CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine 
 ![image](https://user-images.githubusercontent.com/26427511/146595439-6ff83e53-204d-4d56-8e78-edba04510dcb.png)
 
 ##### Note: 
-Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluşturulmaz, Join'lenen tablolara runtime zamanında erişim sağlanır.
+Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluşturulmaz, Join kurulan tablolara runtime zamanında erişim sağlanır.
  
 ![image](https://user-images.githubusercontent.com/26427511/146596314-9bbdc5fc-3f64-4358-a7a9-f5b90c8c0fd9.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146596360-6b5c5909-4114-4050-90d4-c5c69514fe1d.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146596446-399e7584-c0e0-4b53-aa89-478596a9d8b7.png)
+
+
+##### Program İçersinden Erişim;
+
+![image](https://user-images.githubusercontent.com/26427511/146598913-6aa0d820-b459-4357-b969-dfcd8786a8cb.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146599268-110401b0-117f-4614-a93e-9ac4eab3548b.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146599394-8d4f2d1c-5afd-467c-aa4f-80c002262f27.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146599812-0de9b99c-e0c6-4a90-bb00-44cc4c4be7f2.png)
+
+![image](https://user-images.githubusercontent.com/26427511/146600137-d25b2230-6631-4176-88a1-6c98a1e08ff4.png)
+
+
+
+
 
 
 
