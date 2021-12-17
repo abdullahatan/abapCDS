@@ -122,7 +122,7 @@ CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine 
 
 ![image](https://user-images.githubusercontent.com/26427511/146595405-59a58d10-2106-4ef3-922a-58ddfc79b8ac.png)
 
-![image](https://user-images.githubusercontent.com/26427511/146595439-6ff83e53-204d-4d56-8e78-edba04510dcb.png)
+![image](https://user-images.githubusercontent.com/26427511/146600287-b0937616-f974-40b2-a6ff-57e1afeeda8f.png)
 
 ##### Note: 
 Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluşturulmaz, Join kurulan tablolara runtime zamanında erişim sağlanır.
