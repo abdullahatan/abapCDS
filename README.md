@@ -134,8 +134,6 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 
 ##### Program İçersinden Erişim;
 
-![image](https://user-images.githubusercontent.com/26427511/146598913-6aa0d820-b459-4357-b969-dfcd8786a8cb.png)
-
 ![image](https://user-images.githubusercontent.com/26427511/146599268-110401b0-117f-4614-a93e-9ac4eab3548b.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146599394-8d4f2d1c-5afd-467c-aa4f-80c002262f27.png)
