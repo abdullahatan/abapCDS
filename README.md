@@ -9,7 +9,7 @@ Avantajları;
 Database tabanına direkt erişim sağladığı için kod ile sistem arasındaki geçimleri yavaşlatır. 
 CDS kullanılarak görüntüleme, tablolalar, ek açıklamalar, kullanıcı tanımlı veri türleri ve bağlamlar oluşturabiliriz. 
 
-##### Örnek: Basit CDS View Oluşturma
+#### Örnek: Basit CDS View Oluşturma
 
 ![image](https://user-images.githubusercontent.com/26427511/145884694-5ddbb1de-65a1-4fee-9697-a64200c11373.png)
 
@@ -48,7 +48,7 @@ CDS View'ler üzerindeki 'Açıklama' kısmının tayini için kullanılır.
 
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_1.abap)
  
-##### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
+#### Örnek: Mantıksal işlemler, SQL Built İfadeleri ve Sistem Değişkenleri Kullanılması
 
 ![image](https://user-images.githubusercontent.com/26427511/145999657-c4e606ee-7476-4ff8-831a-8d84f941927b.png)
 
@@ -138,7 +138,7 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 ![image](https://user-images.githubusercontent.com/26427511/146596446-399e7584-c0e0-4b53-aa89-478596a9d8b7.png)
 
 
-##### Örnek: Exposed Association'ların Program İçinde Kullanılması;
+#### Örnek: Exposed Association'ların Program İçinde Kullanılması;
 
 ![image](https://user-images.githubusercontent.com/26427511/146599812-0de9b99c-e0c6-4a90-bb00-44cc4c4be7f2.png)
 
