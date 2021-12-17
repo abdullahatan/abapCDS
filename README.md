@@ -118,6 +118,8 @@ CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine 
 
 ![image](https://user-images.githubusercontent.com/26427511/146594539-6106940c-7276-4f2f-938b-2bb5d34826bd.png)
 
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_6.abap)
+
 ##### B-)Exposed Association;
 
 ![image](https://user-images.githubusercontent.com/26427511/146595348-59b36649-0cf0-47b0-bbae-54f80335ccf2.png)
@@ -125,6 +127,8 @@ CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine 
 ![image](https://user-images.githubusercontent.com/26427511/146595405-59a58d10-2106-4ef3-922a-58ddfc79b8ac.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146600287-b0937616-f974-40b2-a6ff-57e1afeeda8f.png)
+
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_7.abap)
 
 ##### Note: 
 Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluşturulmaz, Join kurulan tablolara runtime zamanında erişim sağlanır.
@@ -136,14 +140,11 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 
 ##### Examples:
 
-![image](https://user-images.githubusercontent.com/26427511/146599268-110401b0-117f-4614-a93e-9ac4eab3548b.png)
-
-![image](https://user-images.githubusercontent.com/26427511/146599394-8d4f2d1c-5afd-467c-aa4f-80c002262f27.png)
-
-
 ![image](https://user-images.githubusercontent.com/26427511/146599812-0de9b99c-e0c6-4a90-bb00-44cc4c4be7f2.png)
 
 ![image](https://user-images.githubusercontent.com/26427511/146600137-d25b2230-6631-4176-88a1-6c98a1e08ff4.png)
+
+[Go to code](sourceCode/ZAATAN_CDS_DEMO_8.abap)
 
 
 
