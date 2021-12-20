@@ -149,3 +149,11 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 [Go to code](sourceCode/ZAATAN_CDS_DEMO_8.abap)
 
 
+##### Cardinality'lerin Select Sorgularındaki Davranışları;
+
+
+
+
+
+
+
