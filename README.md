@@ -154,7 +154,7 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 Örneğimizde, SPFLI tablosunu kaynak tablo ve SFLIGHT'ı ilişkili tablo olarak değerlendirelim ve anlayabilmemiz için tablo verilerini CARRID = 'AA' ve CONNID = '17' olarak sınırlandıralım.
 
 ##### -SPFLI Tablosu 
-![image](https://user-images.githubusercontent.com/26427511/146818332-31f83bf4-8751-4bc1-b56d-261445952ba1.png)
+![image](https://user-images.githubusercontent.com/26427511/146818778-174b3a01-a414-412a-a801-187f3b164e42.png)
 
 ##### -SFLIGHT Tablosu 
 ![image](https://user-images.githubusercontent.com/26427511/146818678-0563ff65-3dc7-43ee-83ac-5e8f63f37c31.png)
