@@ -183,8 +183,19 @@ Yukarıdaki örnek program için, SFLIGHT.FLDATE, CDS ZAATAN_CDS_08'den SELECT d
 
 Yukarıdaki CDS View'de, ilişkilendirmede kardinalite [ 0..*] (İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya * girişe sahip olabilir) kullandık. Bu nedenle, SELECT sorgularda ilişkili SFLIGHT tablosundan hiçbir öznitelik kullanılmadığında bile SFLIGHT tablosu ile JOIN gerçekleşir ve SFLIGHT tablosuna dahili olarak da erişilir.
 
+Tablo SPFLI ve SFLIGHT arasındaki ilişki 1'den n kadardır ve ilişkili tablo SFLIGHT'ın kardinalitesi [0..*] veya [1..*] olarak ayarlandığında, SELECT sorgusunun sonucunda JOIN gerçekleşir. SFLIGHT alanları seçilmiyor olsa bile SPFLI'den gelen kayıtlar çoğaltılır.
+Dolayısıyla, Cardinality [0..*] ve [1..*] dahili olarak LEFT OUTER JOIN ile aynı şekilde çalıştığını söyleyebiliriz.
+
+
+
+##### -Çıktı;
+
+
+
+
 ##### Note:
  Kardinalite, SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
+
 
 
 
