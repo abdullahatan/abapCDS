@@ -177,7 +177,7 @@ Yukarıdaki örnek program için, SFLIGHT.FLDATE, CDS ZAATAN_CDS_08'den SELECT d
 ![image](https://user-images.githubusercontent.com/26427511/146825503-70d43076-dbe9-4f40-9290-9ce769613d74.png)
 
 
-##### B-) İlişkili Tablo SFLIGHT'ta kardinalite [0..*] veya [1..*] olduğunda;
+##### B-) İlişkili Tablo SFLIGHT'ta kardinalite [0..* ] veya [1..* ] olduğunda;
 
 ![image](https://user-images.githubusercontent.com/26427511/146825757-6a2ee253-1851-4002-86d9-ebec89bf5fcc.png)
 
