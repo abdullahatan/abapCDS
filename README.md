@@ -162,7 +162,7 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 
 ##### A-) İlişkili Tablo SFLIGHT'ta kardinalite [0..1] veya [1..1] olduğunda;
 
-![image](https://user-images.githubusercontent.com/26427511/146821945-0a9f4bea-ed41-43f5-bf66-66a2b15a54c5.png)
+![image](https://user-images.githubusercontent.com/26427511/146824991-9606971d-9f46-42a5-826a-4f8591a94056.png)
 
 Yukarıdakş CDS View'de, ilişkilendirmede kardinalite [0..1](İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya 1 girişe sahip olabilir) kullandık. SPFLI ve SFLIGHT arasındaki ilişki 1'e çoktur. Fakat sorgularda SFLIGHT tablosuna ait hiçbir alan seçilmezse Join gerçekleşmez ve SPFLI tablosundaki kayıtlar çoğaltılmaz.
 Bu durumdan yola çıkarsak Cardinality [0..1]'in dahili olarak LEFT OUTER TO ONE JOIN ile aynı şekilde çalıştığını söyleyebiliriz.
