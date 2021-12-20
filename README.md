@@ -186,26 +186,14 @@ Yukarıdaki CDS View'de, ilişkilendirmede kardinalite [ 0..*] (İlişkili tablo
 Tablo SPFLI ve SFLIGHT arasındaki ilişki 1'den n kadardır ve ilişkili tablo SFLIGHT'ın kardinalitesi [0..*] veya [1..*] olarak ayarlandığında, SELECT sorgusunun sonucunda JOIN gerçekleşir. SFLIGHT alanları seçilmiyor olsa bile SPFLI'den gelen kayıtlar çoğaltılır.
 Dolayısıyla, Cardinality [0..*] ve [1..*] dahili olarak LEFT OUTER JOIN ile aynı şekilde çalıştığını söyleyebiliriz.
 
+![image](https://user-images.githubusercontent.com/26427511/146828239-52c27c8f-c4fb-41e7-ad00-12d63377dfbc.png)
 
+Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SFLIGHT alanları SELECT sorgusunda kullanılmasa bile) ve hem SPFLI hem de SFLIGHT tablolarına dahili olarak erişilir. Böylece kayıtlar çoğaltılır.
 
 ##### -Çıktı;
-
-
-
+![image](https://user-images.githubusercontent.com/26427511/146828164-bf087d39-a396-4e17-8c6b-f7ea0595988e.png)
 
 ##### Note:
  Kardinalite, SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
