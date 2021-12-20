@@ -163,12 +163,14 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 ##### A-) İlişkili Tablo SFLIGHT'ta kardinalite [0..1] veya [1..1] olduğunda;
 
 ![image](https://user-images.githubusercontent.com/26427511/146824991-9606971d-9f46-42a5-826a-4f8591a94056.png)
+ 
  [Go to code](sourceCode/ZAATAN_CDS_DEMO_9.abap)
 
 Yukarıdakş CDS View'de, ilişkilendirmede kardinalite [ 0..1 ](İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya 1 girişe sahip olabilir) kullandık. SPFLI ve SFLIGHT arasındaki ilişki 1'e çoktur. Fakat sorgularda SFLIGHT tablosuna ait hiçbir alan seçilmezse Join gerçekleşmez ve SPFLI tablosundaki kayıtlar çoğaltılmaz.
 Bu durumdan yola çıkarsak Cardinality [0..1]'in dahili olarak LEFT OUTER TO ONE JOIN ile aynı şekilde çalıştığını söyleyebiliriz.
 
 ![image](https://user-images.githubusercontent.com/26427511/146822679-24254d4d-aa75-4c0b-a012-11c3ff03fd0f.png),
+ 
  [Go to code](sourceCode/ZAATAN_CDS_DEMO_10.abap)
 
 Yukarıdaki programda SELECT sorgusunda, CDS'e ait yalnızca SPFLI tablosunun alanları olan CARRID, CONNID ve DISTANCE alanlarına eriştik. Önem derecesi [0..1]'dir, bu, CDS'nin programda nasıl kullanıldığına bağlı olarak ilişkili tablonun(SFLIGHT) 0 veya 1 girişe sahip olabileceği anlamına gelir.
@@ -182,6 +184,7 @@ Yukarıdaki örnek program için, SFLIGHT.FLDATE, CDS ZAATAN_CDS_08'den SELECT d
 ##### B-) İlişkili Tablo SFLIGHT'ta kardinalite [0..* ] veya [1..* ] olduğunda;
 
 ![image](https://user-images.githubusercontent.com/26427511/146825757-6a2ee253-1851-4002-86d9-ebec89bf5fcc.png)
+
  [Go to code](sourceCode/ZAATAN_CDS_DEMO_11.abap)
 
 Yukarıdaki CDS View'de, ilişkilendirmede kardinalite [ 0..*] (İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya * girişe sahip olabilir) kullandık. Bu nedenle, SELECT sorgularda ilişkili SFLIGHT tablosundan hiçbir öznitelik kullanılmadığında bile SFLIGHT tablosu ile JOIN gerçekleşir ve SFLIGHT tablosuna dahili olarak da erişilir.
@@ -190,6 +193,7 @@ Tablo SPFLI ve SFLIGHT arasındaki ilişki 1'den n kadardır ve ilişkili tablo 
 Dolayısıyla, Cardinality [0..*] ve [1..*] dahili olarak LEFT OUTER JOIN ile aynı şekilde çalıştığını söyleyebiliriz.
 
 ![image](https://user-images.githubusercontent.com/26427511/146828239-52c27c8f-c4fb-41e7-ad00-12d63377dfbc.png)
+
  [Go to code](sourceCode/ZAATAN_CDS_DEMO_12.abap)
 
 Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SFLIGHT alanları SELECT sorgusunda kullanılmasa bile) ve hem SPFLI hem de SFLIGHT tablolarına dahili olarak erişilir. Böylece kayıtlar çoğaltılır.
