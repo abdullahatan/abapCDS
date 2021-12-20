@@ -181,9 +181,10 @@ Yukarıdaki örnek program için, SFLIGHT.FLDATE, CDS ZAATAN_CDS_08'den SELECT d
 
 ![image](https://user-images.githubusercontent.com/26427511/146825757-6a2ee253-1851-4002-86d9-ebec89bf5fcc.png)
 
-Yukarıdaki CDS View'de, ilişkilendirmede kardinalite *][ 0..*](İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya * girişe sahip olabilir) kullandık. Bu nedenle, SELECT sorgularda ilişkili SFLIGHT tablosundan hiçbir öznitelik kullanılmadığında bile SFLIGHT tablosu ile JOIN gerçekleşir ve SFLIGHT tablosuna dahili olarak da erişilir.
+Yukarıdaki CDS View'de, ilişkilendirmede kardinalite [ 0..*] (İlişkili tablo SFLIGHT, SPFLI kaynak tablosu için 0 veya * girişe sahip olabilir) kullandık. Bu nedenle, SELECT sorgularda ilişkili SFLIGHT tablosundan hiçbir öznitelik kullanılmadığında bile SFLIGHT tablosu ile JOIN gerçekleşir ve SFLIGHT tablosuna dahili olarak da erişilir.
 
-##### Kardinalite  , SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
+##### Note:
+ Kardinalite, SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
 
 
 
