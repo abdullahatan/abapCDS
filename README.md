@@ -110,8 +110,6 @@ CDS View'ler oluştururken aşağıdaki join türleri kullanılabilir.
 #### ASSOCIATIONS:
 CDS View'lere iş kullanıcılar tarafından doğrudan erişilmez, bunun yerine ABAP programı, Fiori uygulamaları vb. araçlar üzerinden erişim sağlarlar. 5 farklı tablo JOIN ile bir CDS View oluşturduysak, JOIN koşulları CDS View her tetiklendiğinde yürütülecektir. İş kullanıcısı yalnızca 2 tablodaki alanlara bakıyor olsa bile CDS View önce 5 tablonun tümünün birleştirme koşullarını çalıştıracak ve kullanıcının kaç alana baktığını önemsemeyecektir. Bu yaklaşım Join SQL konseptidir ve bu konsept veri listeleme performansına neden olacaktır. Bu sorunun üstesinden gelmek için SAP, SQL veri alma yönteminde bir iyileştirmeye gitti ve 'ASSOCIATIONS' kavramınını geliştirdi. Association'lar ile veriler yalnızca kullanıcı onu görmek istediğinde alınır, kullanıcı görmek istemiyorsa veriye erişim olmaz. Örneğin, CDS View'lerde yapılandırılmış 4 İlişki var ve kullanıcı yalnızca 2 tablo için veri alıyor, diğer 2 tablodaki ASSOCIATION tetiklenmeyecek ve sistem sonuçları hızlı bir şekilde döndürecek. İki çeşit Association türü vardı. Bunlar Ad-Hoc ve Exposed Association olarak adlandırılır. Ad-Hoc Assocation normal Join gibi ikinci tablonun herhangi bir alanını kullanmak üzerine geliştirilen Assocation'lardır. Exposed Association ise ilgili View için bir alan olarak görünmez ancak başka bir View aracılığıyla erişim sağlandığı zaman direk olarak orada kullanılabilir.
 
-![image](https://user-images.githubusercontent.com/26427511/146602969-521ef4f3-61c8-4ac6-8016-162dcc407636.png)
-
 ##### A-)Ad-Hoc Association;
 
 ![image](https://user-images.githubusercontent.com/26427511/146594446-d27df677-da07-46b2-b881-023c44b8cfb8.png)
@@ -150,6 +148,8 @@ Exposed Association'lar SQL Create Statement'da görüldüğü gibi Join oluştu
 
 
 #### Cardinality'lerin Select Sorgularındaki Davranışlarının İncelenmesi
+
+![image](https://user-images.githubusercontent.com/26427511/146602969-521ef4f3-61c8-4ac6-8016-162dcc407636.png)
 
 Örneğimizde, SPFLI tablosunu kaynak tablo ve SFLIGHT'ı ilişkili tablo olarak değerlendirelim ve anlayabilmemiz için tablo verilerini CARRID = 'AA' ve CONNID = '17' olarak sınırlandıralım.
 
