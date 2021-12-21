@@ -215,7 +215,7 @@ Bir örnek üzerinden açıklayacak olursak;
 ![image](https://user-images.githubusercontent.com/26427511/146999457-f17b34e6-fb0a-4f40-98ca-2690dc51c42b.png)
 
 
-![image](https://user-images.githubusercontent.com/26427511/146999257-2d46ecf2-3fe1-4984-b528-2fbe085abc8c.png)
+![image](https://user-images.githubusercontent.com/26427511/146999678-a425e07b-39a7-4ff7-b298-3f64039e403f.png)
 
 
 
