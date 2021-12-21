@@ -218,7 +218,6 @@ Bir örnek üzerinden açıklayacak olursak;
 ![image](https://user-images.githubusercontent.com/26427511/146999678-a425e07b-39a7-4ff7-b298-3f64039e403f.png)
 
 
-
 ![image](https://user-images.githubusercontent.com/26427511/146999373-dcbc1aa3-e39c-464d-a4df-077b28378986.png)
 
 
