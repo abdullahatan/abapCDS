@@ -217,11 +217,18 @@ Bir örnek üzerinden açıklayacak olursak;
 
 ![image](https://user-images.githubusercontent.com/26427511/146999678-a425e07b-39a7-4ff7-b298-3f64039e403f.png)
 
+##### -Çıktı;
+![image](https://user-images.githubusercontent.com/26427511/147000103-2071799c-2de8-486b-9ba0-fa0cf8198b68.png)
 
-![image](https://user-images.githubusercontent.com/26427511/146999373-dcbc1aa3-e39c-464d-a4df-077b28378986.png)
+Çıktıda görüldüğü gibi ZTAB1 ve ZTAB2 tabloları kayıtları Union SQL tümcesi ile birleştirildi, burada dikkat etmemiz gerek her iki tabloda ortak olan '15' değeri sorgu çıktısına bir defa geldi, Union sorgularında varsayılan mod Union Distinct'dir ve ikinci sorgudaki yinelenen kayıtları ortadan kaldırır.
 
 
+![image](https://user-images.githubusercontent.com/26427511/147000021-1de3af43-69ff-487e-b9a0-dcb94e326232.png)
 
+##### -Çıktı;
+![image](https://user-images.githubusercontent.com/26427511/147000663-95166920-431d-47f7-838b-b9aeae3efbda.png)
+
+Çıktıda görüldüğü gibi ZTAB1 ve ZTAB2 tabloları kayıtları Union All SQL tümcesi ile birleştirildi, burda dikkat etmemiz gereken her iki tabloda ortak olan kayıtlar tolere etmez ve tekrar eden kayıtlar sorgu çıktısına dahil edilir.  
 
 
 
