@@ -206,7 +206,7 @@ Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SF
  
 ## CDS Örnekleri
 
-#### ->Union Distinct & Union All
+### >Union Distinct & Union All
 
 Abap 7.50 sürümü ile Union komutunu artık kullanabiliyoruz. Union komutu tam olarak, iki ayrı sorgunun sonuçlarını tek bir veri kümesinde birleştirmek için kullanılır.
 
