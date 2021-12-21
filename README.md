@@ -228,7 +228,7 @@ Bir örnek üzerinden açıklayacak olursak;
 ##### -Çıktı;
 ![image](https://user-images.githubusercontent.com/26427511/147000663-95166920-431d-47f7-838b-b9aeae3efbda.png)
 
- Çıktıda görüldüğü gibi ZTAB1 ve ZTAB2 tabloları kayıtları Union All Sql tümcesi ile birleştirildi, burda dikkat etmemiz gereken her iki tabloda ortak olan kayıtlar tolere etmez ve tekrar eden kayıtlar sorgu çıktısına dahil edilir. 
+ Çıktıda görüldüğü gibi ZTAB1 ve ZTAB2 tabloları kayıtları Union All Sql tümcesi ile birleştirildi, burda dikkat etmemiz gereken her iki tabloda ortak olan kayıtlar tolere edilmezler. Tekrar eden kayıtlar sorgu çıktısına dahil edilir. 
  
  [Go to code](sourceCode/ZAATAN_CDS_DEMO_13.abap)
 
