@@ -203,10 +203,8 @@ Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SF
 
 ##### Note:
  Kardinalite, SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
-
-#### *******************************************************************************************
-#### CDS Örnekleri->
-#### *******************************************************************************************
+ 
+# CDS Örnekleri->
 
 ##### -
 
