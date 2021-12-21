@@ -204,9 +204,24 @@ Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SF
 ##### Note:
  Kardinalite, SELECT ifadesi tamamen aynı olduğunda bile sorgunun davranışını değiştirebilir.
  
-## CDS Örnekleri->
+## < CDS Örnekleri >
 
-##### -
+##### -Union Distinct & Union All
+
+Abap 7.50 sürümü ile Union komutunu artık kullanabiliyoruz. Union komutu tam olarak, iki ayrı sorgunun sonuçlarını tek bir veri kümesinde birleştirmek için kullanılır.
+
+Bir örnek üzerinden açıklayacak olursak;
+
+![image](https://user-images.githubusercontent.com/26427511/146999457-f17b34e6-fb0a-4f40-98ca-2690dc51c42b.png)
+
+
+![image](https://user-images.githubusercontent.com/26427511/146999257-2d46ecf2-3fe1-4984-b528-2fbe085abc8c.png)
+
+
+
+![image](https://user-images.githubusercontent.com/26427511/146999373-dcbc1aa3-e39c-464d-a4df-077b28378986.png)
+
+
 
 
 
