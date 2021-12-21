@@ -208,7 +208,7 @@ Aynı SELECT Sorgusu ile, kardinalite [0..*] olduğundan, JOIN gerçekleşir (SF
 
 ### >Union Distinct & Union All
 
-Abap 7.50 sürümü ile Union komutunu artık kullanabiliyoruz. Union komutu tam olarak, iki ayrı sorgunun sonuçlarını tek bir veri kümesinde birleştirmek için kullanılır.
+Abap 7.4 SP5 sürümü ile Union komutunu artık kullanabiliyoruz. Union komutu tam olarak, iki ayrı sorgunun sonuçlarını tek bir veri kümesinde birleştirmek için kullanılır.
 
 Bir örnek üzerinden açıklayacak olursak;
 
